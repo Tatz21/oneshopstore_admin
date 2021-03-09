@@ -76,13 +76,13 @@ class _HomeState extends State<Home> {
         padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 9.0),
         children: <Widget>[
           MyItems(Icons.add_shopping_cart, "AddStore", 0xffed622b),
-          MyItems(Icons.local_grocery_store, "Grocery Photo", 0xff26cb3c),
+          MyItems(Icons.local_grocery_store, "Grocery Photo", 0xffed622b),
           MyItems(Icons.expand_less_outlined,"Daily Essentials Photo", 0xffed622b),
-          MyItems(Icons.settings, "Grocery Category", 0xff622F74),
+          MyItems(Icons.settings, "Grocery Category", 0xffed622b),
           MyItems(Icons.directions_railway,"Daily Essentials Category", 0xffed622b),
           MyItems(Icons.storage_rounded,"Store List", 0xffed622b),
-          MyItems(Icons.local_grocery_store, "Grocery Products", 0xff26cb3c),
-          MyItems(Icons.send_outlined,"Send Daily Essentials", 0xff7297ff),
+          MyItems(Icons.local_grocery_store, "Grocery Products", 0xffed622b),
+          MyItems(Icons.send_outlined,"Send Daily Essentials", 0xffed622b),
         ],
         staggeredTiles: [
           StaggeredTile.extent(1, 130.0),

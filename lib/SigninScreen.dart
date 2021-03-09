@@ -91,10 +91,12 @@ class SignInScreen extends StatelessWidget {
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             color: kPrimaryColor,
+                            
                           ),
                           child: Icon(
                             Icons.arrow_forward,
                             color: Colors.black,
+                          
                           ),
                         )
                       ],
