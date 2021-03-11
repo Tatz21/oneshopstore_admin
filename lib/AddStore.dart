@@ -39,9 +39,9 @@ class StuffInTiles extends StatelessWidget {
           onLongPress: () => print("long press"),
           onTap: () => print("tap"),
           subtitle: new Text("Subtitle"),
-          leading: new Text("Leading"),
+          
           selected: true,
-          trailing: new Text("trailing"),
+          
           title: new Text(t.title));
 
     return new ExpansionTile(

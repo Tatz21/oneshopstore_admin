@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Login UI',
       debugShowCheckedModeBanner: true,
-      home: AddStore(),
+      home: MyDrawer(),
     );
   }
 }
